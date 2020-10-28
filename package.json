@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "SooJae[Sujae)<developersoojae@gmail.com>",
   "bugs": {
-    "url": "https://github.com/JaeYeopHan/JBEE.io/issues"
+    "url": "https://github.com/SooJae/SooJae.dev/issues"
   },
   "dependencies": {
     "gatsby": "^2.0.76",
@@ -13,7 +13,7 @@
     "gatsby-plugin-feed": "^2.0.8",
     "gatsby-plugin-google-analytics": "^2.0.21",
     "gatsby-plugin-lodash": "^3.0.4",
-    "gatsby-plugin-manifest": "^2.0.5",
+    "gatsby-plugin-manifest": "^2.4.36",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sass": "^2.0.7",
