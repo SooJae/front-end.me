@@ -29,12 +29,6 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: `gatsby-remark-katex`,
-            options: {
-              strict: `ignore`,
-            },
-          },
-          {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 1200,
@@ -44,7 +38,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images-medium-zoom`,
             options: {
-              margin: 36,
+              margin: 12,
               scrollOffset: 0,
             },
           },
@@ -71,8 +65,6 @@ module.exports = {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
         trackingId: metaConfig.ga,
-        head: true,
-        anonymize: true,
       },
     },
     {

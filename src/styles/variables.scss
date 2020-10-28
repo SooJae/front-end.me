@@ -1,7 +1,7 @@
 // app
-$theme-gradient: linear-gradient(72deg, #291e95, #cc007a);
+$theme-gradient: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );
+//$theme-gradient: linear-gradient(to left, rgb(182, 244, 146), rgb(51, 139, 147));
 $top-header-text-color: #fff;
-
 /**
  * @light theme
  */
@@ -21,11 +21,12 @@ $light-gray: #aaa;
 // blog-templates
 $navigator-text-color: #cc007a;
 $navigator-background-color: #fceff7;
-$blockquote-text-color: #999;
+$light-blockquote-quote-image: url('/images/quote-black.png');
+$light-blockquote-quote-color: #000;
 
 // code
-$inline-dimmed-color: #ece5f1;
-$inline-text-color: #4b2043;
+$inline-dimmed-color: #fffbfe;
+$inline-text-color: #da3a6a;
 
 // category
 $light-category-border-color: #ecf0f2;
@@ -38,6 +39,8 @@ $light-category-item-color: #fff;
 /**
  * @dark theme
  */
+
+// body
 $dark-background-color: #282c35;
 $dark-link-color: #bb72ec;
 
@@ -45,9 +48,14 @@ $dark-lightest-font-color: #fff;
 $dark-light-font-color: #eeeeee;
 $dark-middle-font-color: #d8d7d7;
 
+// blog-template
 $dark-text-shadow: 0 0 0.1px rgba(255, 255, 255, 0.3);
 $dark-hover-text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
 
+$dark-blockquote-quote-image: url('/images/quote-white.png');
+$dark-blockquote-quote-color: #fff;
+
+// category
 $dark-category-item-color: #282c35;
 $dark-category-background-color: #24272c;
 
