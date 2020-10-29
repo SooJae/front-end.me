@@ -11,7 +11,7 @@ module.exports = {
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
   },
-  icon: `content/assets/blog-favicon.jpg`, // Add your favicon
+  icon: `content/assets/blog-favicon.png`, // Add your favicon
   // thumbnail: `https://jbee.io/jbee-io.png`,
   // resume: {
   //   title: 'About Jbee',
