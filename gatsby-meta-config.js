@@ -1,5 +1,5 @@
 module.exports = {
-  title: `이수재 블로그`,
+  title: `console.dev('SooJae');`,
   description: `좋은 글이 작성되길 바라는 블로그입니다.`,
   author: `SooJae`,
   introduction: `'개발은 효율적으로, 공부는 비효율적으로'를 모토로 천천히 깊게 공부하는 프론트엔드 개발자입니다.`,
@@ -11,7 +11,7 @@ module.exports = {
     facebook: ``, // Your Facebook account
     linkedin: ``, // Your LinkedIn account
   },
-  icon: `content/assets/blog-favicon.png`, // Add your favicon
+  icon: `content/assets/blog-favicon.jpg`, // Add your favicon
   // thumbnail: `https://jbee.io/jbee-io.png`,
   // resume: {
   //   title: 'About Jbee',
