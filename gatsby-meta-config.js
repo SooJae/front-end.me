@@ -1,9 +1,9 @@
 module.exports = {
-  title: `SooJae's Blog`,
-  description: `SooJae's development Blog`,
+  title: `이수재 블로그`,
+  description: `좋은 글이 작성되길 바라는 블로그입니다.`,
   author: `SooJae`,
-  introduction: `I'm a frontend developer.`,
-  siteUrl: `https://soojae.dev/`, // Your blog site url
+  introduction: `'개발은 효율적으로, 공부는 비효율적으로'를 모토로 천천히 깊게 공부하는 프론트엔드 개발자입니다.`,
+  siteUrl: `https://front-end.me/`, // Your blog site url
   social: {
     twitter: ``, // Your Twitter account
     github: `SooJae`, // Your GitHub account
@@ -19,17 +19,18 @@ module.exports = {
   //   thumbnail: 'https://jbee.io/about_thumbnail.png',
   // },
   keywords: [
-    `blog`
-    // `javascript`,
-    // `typescript`,
-    // `web`,
-    // `react`,
-    // `frontend`,
-    // `development`,
+    `blog`,
+    `javascript`,
+    `typescript`,
+    `web`,
+    `react`,
+    `angular`,
+    `frontend`,
+    `development`,
   ],
   comment: {
     disqusShortName: '', // Your disqus-short-name. check disqus.com.
-    utterances: '', // Your repository for archive comment
+    utterances: 'SooJae/front-end.me', // Your repository for archive comment
   },
   configs: {
     countOfInitialPost: 10, // Config your initial count of post
@@ -40,5 +41,5 @@ module.exports = {
   share: {
     facebookAppId: '', // Add facebookAppId for using facebook share feature v3.2
   },
-  ga: '', // Add your google analytics tranking ID
+  ga: 'G-B4SR3R2T7W', // Add your google analytics tranking ID
 }

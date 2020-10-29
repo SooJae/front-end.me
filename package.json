@@ -1,11 +1,11 @@
 {
-  "name": "SooJaeBlog",
+  "name": "front-end.me",
   "private": true,
-  "description": "Blog posted about front end development.",
+  "description": "개발 블로그입니다.",
   "version": "0.1.0",
-  "author": "SooJae[Sujae)<developersoojae@gmail.com>",
+  "author": "SooJae[SuJae]<developersoojae@gmail.com>",
   "bugs": {
-    "url": "https://github.com/SooJae/SooJae.dev/issues"
+    "url": "https://github.com/SooJae/front-end.me/issues"
   },
   "dependencies": {
     "gatsby": "^2.0.76",
@@ -66,7 +66,7 @@
     "recursive-readdir": "^2.2.2",
     "signale": "^1.3.0"
   },
-  "homepage": "https://github.com/JaeYeopHan/JBEE.io#readme",
+  "homepage": "https://github.com/SooJae/front-end.me#readme",
   "keywords": [
     "gatsby"
   ],
@@ -74,7 +74,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JaeYeopHan/JBEE.io.git"
+    "url": "git+https://github.com/SooJae/front-end.me.git"
   },
   "scripts": {
     "create": "gatsby-post-gen",
