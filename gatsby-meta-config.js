@@ -1,6 +1,6 @@
 module.exports = {
-  title: `console.dev('SooJae');`,
-  description: `좋은 글이 작성되길 바라는 블로그입니다.`,
+  title: `SooJae's Devlog`,
+  description: `이수재의 개발 블로그입니다`,
   author: `SooJae`,
   introduction: `'개발은 효율적으로, 공부는 비효율적으로'를 모토로 천천히 깊게 공부하는 프론트엔드 개발자입니다.`,
   siteUrl: `https://front-end.me/`, // Your blog site url
