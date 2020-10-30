@@ -62,6 +62,12 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://front-end.me`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: metaConfig.title,
