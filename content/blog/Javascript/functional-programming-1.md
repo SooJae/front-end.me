@@ -2,7 +2,7 @@
 title: '[번역] 함수형 프로그래밍 전문가 되기 (Part 1)'
 date: 2020-07-11 15:49:12
 category: Javascript
-thumbnail: ./images/functional_programming_1_1.png
+thumbnail: ./images/functional_programming/functional_programming_1_1.png
 draft: false
 ---
 
@@ -12,7 +12,7 @@ Thank you Charles Scalfani! Thanks to your writing, I can grow further as a deve
 
 ---
 
-![functional_programming_1_1](./images/functional_programming_1_1.png)
+![functional_programming_1_1](./images/functional_programming/functional_programming_1_1.png)
 
 
 함수형 프로그래밍의 개념을 이해하기 위해 내딛는 첫걸음은 매우 중요하다. 매우 힘든 첫걸음이지만 올바른 관점으로 접근한다면 그리 힘들지 않다.
@@ -20,7 +20,7 @@ Thank you Charles Scalfani! Thanks to your writing, I can grow further as a deve
 ## 운전 배우기  
 
 
-![functional_programming_1_2](./images/functional_programming_1_2.png)
+![functional_programming_1_2](./images/functional_programming/functional_programming_1_2.png)
 
 
 다른 사람들이 운전하는 것은 쉬워 보였지만, 막상 우리가 운전을 배울때가 되니 생각했던 것보다 더 어려웠었다.  
@@ -49,7 +49,7 @@ Thank you Charles Scalfani! Thanks to your writing, I can grow further as a deve
 ##당신의 첫 우주선
 
 
-![functional_programming_1_3](./images/functional_programming_1_3.png)
+![functional_programming_1_3](./images/functional_programming/functional_programming_1_3.png)
 
 
 
@@ -67,7 +67,7 @@ Thank you Charles Scalfani! Thanks to your writing, I can grow further as a deve
 
 
 
-![functional_programming_1_4](./images/functional_programming_1_4.png)
+![functional_programming_1_4](./images/functional_programming/functional_programming_1_4.png)
 
 
 
@@ -96,7 +96,7 @@ Thank you Charles Scalfani! Thanks to your writing, I can grow further as a deve
 
 
 
-![functional_programming_1_5](./images/functional_programming_1_5.png)
+![functional_programming_1_5](./images/functional_programming/functional_programming_1_5.png)
 
 
 
@@ -191,7 +191,7 @@ Javascript, Java, 그리고 C#과 같은 명령형 프로그래밍 언어에는 
 
 ##불변성
 
-![functional_programming_1_6](./images/functional_programming_1_6.jpeg)
+![functional_programming_1_6](./images/functional_programming/functional_programming_1_6.jpeg)
 
 아래 코드를 처음 봤을 때가 생각나나?
 
@@ -239,7 +239,7 @@ ML 스타일의 문법에 익숙하지 않다면 설명해 줄 수 있다. `addO
 
 "뭐? 변수도 없는데 지금 반복문도 없다고 하는 거야? 화가 난다! 화가 나!"
 
-워 워, 캄다운. 우리가 루프를 할 수 없는 것이 아니라, 단지 **for, while, do, repeat** 등등 같은 특정 반복문 구조들을 사용하지 않는 것이다.
+워 워, 캄다운. 우리가 루프를 할 수 없는 것이 아니라, 단지 `for, while, do, repeat` 등등 같은 특정 반복문 구조들을 사용하지 않는 것이다.
 
 > 함수형 프로그래밍은 반복을 하기 위해 재귀 함수를 이용한다.
 
@@ -296,7 +296,7 @@ sumRange 11 10 55 = -- 11 > 10 => 55
 55
 ```
 
-당신은 아마 **for** 반복문이 훨씬 이해하기 쉽다고 생각할 것이다. 논쟁의 여지가 있고, **친숙함**의 문제가 있지만, **비 재귀 함수의 반복문은 불변하지 않기(Mutaility) 때문에 좋지 않다.**
+당신은 아마 `for` 반복문이 훨씬 이해하기 쉽다고 생각할 것이다. 논쟁의 여지가 있고, **친숙함**의 문제가 있지만, **비 재귀 함수의 반복문은 불변하지 않기(Mutaility) 때문에 좋지 않다.**
 
 여기서 불변성에 대해서 전부 설명하긴 힘들다. 불변성에 좀 더 공부하고 싶다면 [Why Programmers Need Limits](https://medium.com/@cscalfani/why-programmers-need-limits-3d96e1a0a6db)의 Global Mutable State 섹션을 보아라.
 
@@ -310,13 +310,13 @@ sumRange 11 10 55 = -- 11 > 10 => 55
 
 ##머리 아파! 이제 한계야!
 
-![functional_programming_1_7](./images/functional_programming_1_7.png)
+![functional_programming_1_7](./images/functional_programming/functional_programming_1_7.png)
 
 오늘은 여기까지.
 
 이 이후에는 고차 함수, 합성 함수, 커링 등에 대해서 포스팅할 예정이다.
 
-다음 게시물 : Part2
+다음 게시물 : [Part2](https://front-end.me/Javascript/functional-programming-2/)
 
 ---
 
