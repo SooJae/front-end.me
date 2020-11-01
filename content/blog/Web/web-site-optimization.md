@@ -1,5 +1,5 @@
 ---
-title: 웹 사이트 성능 최적화
+title: '웹 사이트 성능 최적화'
 date: 2020-10-26 20:40:00
 category: Web
 thumbnail: './images/page_optimization1.jpg'

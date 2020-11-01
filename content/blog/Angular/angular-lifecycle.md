@@ -1,5 +1,5 @@
 ---
-title: 앵귤러 컴포넌트 생명주기
+title: '앵귤러 컴포넌트 생명주기'
 date: 2020-08-07 18:29:00
 category: Angular
 thumbnail: './images/angular_logo.png'
