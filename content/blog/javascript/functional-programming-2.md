@@ -1,7 +1,7 @@
 ---
 title: '[번역] 함수형 프로그래밍 전문가 되기 (Part 2)'
 date: 2020-07-15 21:34:85
-category: javascript
+category: Javascript
 thumbnail: ./images/functional_programming/functional_programming_2_1.png
 draft: false
 ---
