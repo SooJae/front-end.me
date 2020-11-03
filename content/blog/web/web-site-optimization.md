@@ -24,7 +24,7 @@ draft: false
 ![page_optimization3](./images/page_optimization3.png)
 
 ### TTFB(Time to First Byte)
-사용자가 웹 사이트를 호출하면 웹 서버에서 수신한 첫 번째 바이트가 도착하는 시간입니다.  
+사용자가 웹 사이트를 호출하면 웹 서버에서 수신한 첫 번째 바이트가 도착하는 시점입니다.  
 즉, HTTP 요청에 걸리는 시간 + 서버의 요청 처리 시간 + 서버에서 클라이언트까지의 응답 시간이라고 보시면 됩니다.  
 TTFB 속도는 서버의 프로세스와 연관되어 있습니다.
 
@@ -38,7 +38,7 @@ TTFB 속도는 서버의 프로세스와 연관되어 있습니다.
 
 ### FCP(First Contentful Paint)
 
-TTFB 이후에 콘텐츠(HTML 코드, 스타일, 이미지 등)가 표시될 때까지의 시간입니다.   
+TTFB 이후에 DOM 콘텐츠(텍스트, 이미지, 캔버스 렌더링 등)가 표시되는 시점입니다.   
 이 시점은 사용자가 이 웹 사이트가 실제로 동작한다고 인식하도록 해주기 때문에 중요합니다. (사용자 이탈률이 줄어듭니다.)   
 Pagespeed Insights(페이지 속도를 측정해주는 구글 툴)에서는 TTFB 측정은 건너뛰고 FCP 측정을 첫 번째로 합니다. 이는 개발자를 위한 것이며, Pagespeed Insight는 FCP를 활용하여 OnPage 최적화(제목 태그, 콘텐츠, 내부 링크 및 URL 최적화)를 위한 제안을 해줍니다.   
 
@@ -53,8 +53,8 @@ Pagespeed Insights(페이지 속도를 측정해주는 구글 툴)에서는 TTFB
 <br/>
 
 ### FMP(First Meaningful Paint)
-
-사용자에게 의미 있는 콘텐츠가 그려지기 까지의 시간입니다. 하지만 이벤트 리스너(화면 스크롤, 클릭 등)는 아직 추가되지 않았습니다.   
+사용자에게 의미 있는 콘텐츠(Hero elements)가 그려지는 시점입니다. 주요 콘텐츠를 보여주는 css, js가 호출 됩니다.   
+하지만 이벤트 리스너(화면 스크롤, 클릭 등)는 아직 추가되지 않았습니다.   
 사용자는 이 시점에서 페이지가 완전히 로드가 되었다고 인식합니다. 그러므로 FMP의 최적화는 좀 더 중요합니다.
 
 
@@ -65,8 +65,7 @@ Pagespeed Insights(페이지 속도를 측정해주는 구글 툴)에서는 TTFB
 <br/>
 
 ### TTI(Time To Interactive)
-
-자바스크립트의 실행이 완료되어. 페이지가 상호작용 가능하게 될 때까지의 시간 (이벤트 발생 등).
+자바스크립트의 실행이 완료되어. 페이지가 상호작용 가능하게 될 때까지의 시점입니다.(이벤트 발생 등)
 대부분의 페이지 속도 테스트는 이 값을 기초로 사용합니다.
 
 
@@ -76,7 +75,7 @@ FCP와 FMP를 최적화
 
 <br/>
 
-이제 실제 화면을 통해 시점들을 살펴보겠습니다. 밑의 FP(First Paint)는 첫 픽셀이 그려지기 까지의 시간입니다.
+이제 실제 화면을 통해 시점들을 살펴보겠습니다. 밑의 FP(First Paint)는 첫 픽셀이 그려지는 시점입니다.
 
 ![page_optimization4](./images/page_optimization4.png)
 
@@ -104,3 +103,4 @@ FCP와 FMP를 최적화
 Roland Guelle, 「 How to Measure Page Speed 」, https://en.ryte.com/magazine/measure-page-speed  
 TOAST UI, 「 성능 최적화 」, https://ui.toast.com/fe-guide/ko_PERFORMANCE/  
 Philip Walton, 「 User-centric performance metrics 」, https://web.dev/user-centric-performance-metrics/
+Bikash Rai, 「First Contentful Paint (FCP) and First Meaningful Paint (FMP) Explained」, https://www.acmethemes.com/blog/first-contentful-paint-and-first-meaningful-paint/
