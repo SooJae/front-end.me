@@ -1,5 +1,5 @@
 ---
-title: '[번역] 함수형 프로그래밍 전문가 되기 (Part 1)'
+title: '[번역] 함수형 프로그래밍 전문가 되기 (Part 4)'
 date: 2020-07-18 19:14:12
 category: Javascript
 thumbnail: ./images/functional_programming/functional_programming_4_1.png
