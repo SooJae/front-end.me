@@ -101,6 +101,9 @@ FCP와 FMP를 최적화
 ## REFERENCES
 
 Roland Guelle, 「 How to Measure Page Speed 」, https://en.ryte.com/magazine/measure-page-speed  
-TOAST UI, 「 성능 최적화 」, https://ui.toast.com/fe-guide/ko_PERFORMANCE/  
+
+TOAST UI, 「 성능 최적화 」, https://ui.toast.com/fe-guide/ko_PERFORMANCE/
+  
 Philip Walton, 「 User-centric performance metrics 」, https://web.dev/user-centric-performance-metrics/
+
 Bikash Rai, 「First Contentful Paint (FCP) and First Meaningful Paint (FMP) Explained」, https://www.acmethemes.com/blog/first-contentful-paint-and-first-meaningful-paint/

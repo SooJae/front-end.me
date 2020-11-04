@@ -83,5 +83,6 @@ draft: false
 
 ## REFERENCE
 
-Max Koretskyi, 「 if-you-think-ngdocheck-means-your-component-is-being-checked-read-this-article 」, https://indepth.dev/if-you-think-ngdocheck-means-your-component-is-being-checked-read-this-article    
+Max Koretskyi, 「 if-you-think-ngdocheck-means-your-component-is-being-checked-read-this-article 」, https://indepth.dev/if-you-think-ngdocheck-means-your-component-is-being-checked-read-this-article
+    
 freecodecamp, 「Angular Lifecycle Hooks: ngOnChanges, ngOnInit, and more」, https://www.freecodecamp.org/news/angular-lifecycle-hooks  
