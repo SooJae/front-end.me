@@ -1,8 +1,8 @@
 ---
-title: `2020년 회고`
+title: '2020년 회고'
 date: 2020-12-31 22:33:00
 category: ETC
-thumbnail: `./images/memoir/memoir_2020_1.jpeg`
+thumbnail: './images/memoir/memoir_2020_1.jpeg'
 draft: false
 ---
 
