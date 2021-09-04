@@ -252,7 +252,7 @@ console.log(childFunc(111, 222)); // 738을 출력
 
 이후 포스팅에서는 합성 함수, 커링, 일반적인 함수형 함수(map, filter, fold 등등) 등에 대해 이야기 할 예정이다.
 
-다음 게시물 : Part3
+다음 게시물 : [Part3](https://front-end.me/javascript/functional-programming-3/)
 
 ---
 
