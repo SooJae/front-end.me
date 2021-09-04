@@ -78,7 +78,7 @@ console.log(f(1)(2)(3)(4)); // prints 10
 
 **Lisp**프로그래머가 위의 많은 괄호를 봤다면 울었을 것이다.  
   
-커링 함수를 작성하기 위한 많은 라이브러리가 있지만, 내가 가장 좋아하는 라이브러리는 [Ramda](http://(https://ramdajs.com/))이다  
+커링 함수를 작성하기 위한 많은 라이브러리가 있지만, 내가 가장 좋아하는 라이브러리는 [Ramda](https://ramdajs.com/)이다  
   
 **Ramda**를 사용하면 아래와 같이 변경할 수 있다.  
   
@@ -90,7 +90,7 @@ console.log(f(1)(2)(3, 4)); // also prints 10
 ```
 
 함수 정의는 그리 좋지 않지만, 모든 괄호를 넣을 필요는 없어졌다. 우리가 `f`함수를 호출할 때마다 원하는 만큼의 파라미터수를 정할 수 있다는 것에 주목하자.       
-`Ramda`를 사용해서 [Part 3](https://front-end.me/javascript/functional-programming-3/#%ED%8C%8C%EB%9D%BC%EB%8B%A4%EC%9D%B4%EC%8A%A4%EC%97%90%EC%84%9C%EC%9D%98-%EB%AC%B8%EC%A0%9C)와 [Part 4](https://front-end.me/javascript/functional-programming-3/#%ED%8C%8C%EB%9D%BC%EB%8B%A4%EC%9D%B4%EC%8A%A4%EC%97%90%EC%84%9C%EC%9D%98-%EB%AC%B8%EC%A0%9C)에서 작성했던 `mult5AfterAdd10`을 개선해보자  
+`Ramda`를 사용해서 [Part 3](https://front-end.me/javascript/functional-programming-3/)와 [Part 4](https://front-end.me/javascript/functional-programming-4/)에서 작성했던 `mult5AfterAdd10`을 개선해보자  
   
 ```js
 const add = R.curry((x, y) => x + y);

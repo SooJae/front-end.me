@@ -23,7 +23,7 @@ Thank you Charles Scalfani! Thanks to your writing, I can grow further as a deve
 
   
   
-[Part 3](https://front-end.me/javascript/functional-programming-3/#%ED%8C%8C%EB%9D%BC%EB%8B%A4%EC%9D%B4%EC%8A%A4%EC%97%90%EC%84%9C%EC%9D%98-%EB%AC%B8%EC%A0%9C)의 마지막 부분에서 `mult5` 함수는 1개의 파라미터를 받고, `add` 함수는 2개의 파라미터를 받았기 때문에 `mult5` 함수와 `add5` 함수를 합성할 때 문제가 발생했었다.  
+[Part 3](https://front-end.me/javascript/functional-programming-3/#%ED%8C%8C%EB%9D%BC%EB%8B%A4%EC%9D%B4%EC%8A%A4%EC%97%90%EC%84%9C%EC%9D%98-%EB%AC%B8%EC%A0%9C)의 마지막 부분에서 `mult5` 함수는 1개의 파라미터를 받고, `add` 함수는 2개의 파라미터를 받았기 때문에 `mult5` 함수와 `add10` 함수를 합성할 때 문제가 발생했었다.  
   
 우리는 모든 함수가 **1개의 파라미터만 받도록 제한**함으로써 이 문제를 해결할 수 있다.  
   

@@ -61,13 +61,13 @@ findError key =
 
 ```elm
 findError key =
-   "Unable to find " ++ ("'" ++ str ++ "'")
+   "Unable to find " ++ ("'" ++ key ++ "'")
 ```
 
 나는 이것을 **Reverse Refactoring**이라고 부른다(그 편이 이해가 잘된다).    
 이 프로세스는 프로그래머 또는 프로그램이 코드를 추론하기 위해 사용할 수 있다. (예: 컴파일러 또는 테스트 프로그램)
 
-**Reverse Refactoring**는 특히 재귀함수에 대한 추론을 할때 도움이 된다.
+**Reverse Refactoring**은 특히 재귀함수에 대한 추론을 할때 도움이 된다.
 
 ![functional_programming_5_3](./images/functional_programming/functional_programming_5_3.png)
 
