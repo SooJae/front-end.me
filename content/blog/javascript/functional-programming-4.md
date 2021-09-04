@@ -15,7 +15,7 @@ Thank you Charles Scalfani! Thanks to your writing, I can grow further as a deve
 
 함수형 프로그래밍의 개념을 이해하기 위해 내딛는 첫걸음은 매우 중요하다. 매우 힘든 첫걸음이지만 올바른 관점으로 접근한다면 힘들어할 필요가 없다.  
   
-이전 게시물 : [Part 1](https://front-end.me/Javascript/functional-programming-1/), [Part 2](https://front-end.me/Javascript/functional-programming-2/), [Part 3](https://front-end.me/Javascript/functional-programming-3/)
+이전 게시물 : [Part 1](https://front-end.me/javascript/functional-programming-1/), [Part 2](https://front-end.me/javascript/functional-programming-2/), [Part 3](https://front-end.me/javascript/functional-programming-3/)
 
 ### 커링
 
@@ -312,7 +312,7 @@ console.log(sumOfValues); // 15
   
 이후 게시물에서는 참조 투명성, 실행 순서, 타입 등에 대해 이야기하려고 한다.  
   
-다음 게시물 : [Part 5](https://front-end.me/Javascript/functional-programming-5/)
+다음 게시물 : [Part 5](https://front-end.me/javascript/functional-programming-5/)
 
 ---
 

@@ -314,7 +314,7 @@ sumRange 11 10 55 = -- 11 > 10 => 55
 
 이 이후에는 고차 함수, 합성 함수, 커링 등에 대해서 포스팅할 예정이다.
 
-다음 게시물 : [Part2](https://front-end.me/Javascript/functional-programming-2/)
+다음 게시물 : [Part2](https://front-end.me/javascript/functional-programming-2/)
 
 ---
 

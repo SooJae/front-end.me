@@ -15,7 +15,7 @@ Thank you Charles Scalfani! Thanks to your writing, I can grow further as a deve
 
 함수형 프로그래밍의 개념을 이해하기 위해 내딛는 첫걸음은 매우 중요하다. 그리고 그 첫 걸음은 매우 힘들다.
 
-이전 게시물 : [Part1](https://front-end.me/Javascript/functional-programming-1/)
+이전 게시물 : [Part1](https://front-end.me/javascript/functional-programming-1/)
 
 ## 친절한 알림
 
